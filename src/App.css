@@ -1,0 +1,254 @@
+.app-wrapper {
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.main-header {
+  background: linear-gradient(135deg, #6c5ce7 0%, #b3a5ef 100%);
+  padding: 4.5rem 1rem 7.5rem;
+  text-align: center;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.header-rocket {
+  width: 3.5rem;
+  height: 3.5rem;
+  color: #ff7675;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+.main-header h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.main-header p {
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.content-container {
+  max-width: 1100px;
+  margin: -4rem auto 4rem;
+  padding: 0 1.5rem;
+}
+
+.form-section {
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-group.third {
+  flex: 1;
+}
+
+.full-width {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.full-width textarea {
+  width: 100%;
+}
+
+.btn-add {
+  background-color: #6366f1;
+  color: white;
+  padding: 0.9rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+}
+
+.btn-add:hover {
+  background-color: #4f46e5;
+  transform: translateY(-1px);
+}
+
+.queue-section {
+    margin-top: 2rem;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.queue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2.5rem;
+  border-bottom: 1.5px solid #e1e5ea;
+  padding-bottom: 1rem;
+}
+
+.queue-header h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #2d3436;
+}
+
+.queue-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.btn-green {
+  background-color: #55d68d;
+  color: white;
+  padding: 0.85rem 1.75rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.btn-green:hover {
+  background-color: #2ecc71;
+}
+
+.btn-red {
+  background-color: #ff7675;
+  color: white;
+  padding: 0.85rem 1.75rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.empty-icon-box {
+  background-color: #fff4f4;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  color: #ff7675;
+}
+
+.empty-state h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #8c98a4;
+  margin-bottom: 0.5rem;
+}
+
+.empty-state p {
+  font-size: 1.15rem;
+  color: #b2bec3;
+}
+
+.tasks-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.task-item {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  border: 1px solid #edf2f7;
+}
+
+.task-header-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.task-header-row h4 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.badge.high { background: #fee2e2; color: #ef4444; }
+.badge.medium { background: #fef9c3; color: #ca8a04; }
+.badge.low { background: #dcfce7; color: #22c55e; }
+
+.task-details {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.85rem;
+  color: #718096;
+  margin-bottom: 1rem;
+}
+
+.task-text {
+  font-size: 0.95rem;
+  color: #4a5568;
+  padding-top: 1rem;
+  border-top: 1px solid #f1f5f9;
+}
+
+.btn-delete {
+  background-color: #fff5f5;
+  color: #f56565;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.btn-delete:hover {
+  background-color: #fed7d7;
+}
+
+.date-input {
+  width: 100%;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
